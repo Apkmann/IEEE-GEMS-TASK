@@ -1,0 +1,119 @@
+.header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 1, 40);
+    height: 50px;
+}
+
+.header input
+{ 
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: rgb(2, 12, 20);
+    color:white;
+    font-size: medium;
+    width:45%;
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+.header input[type="search"]::-webkit-search-cancel-button
+{
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+}
+
+.search
+{
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0 0 0.1rem white);
+}
+.header input::placeholder
+{
+    filter: drop-shadow(0 0 0.1rem white);
+    color: white;
+}
+.submit
+{
+    display: flex;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border:none;
+    outline: none;
+    background-color:rgb(2, 12, 20);
+    height: 32px;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+.submit:hover
+{
+    cursor: pointer;
+}
+
+.submit:active
+{
+    background-color: skyblue;
+}
+
+
+.sidehead
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    right: 1%;
+}
+
+.innerside
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15%;
+}
+
+.innerside img
+{
+    filter: drop-shadow(0 0 0.1rem white);
+}
+
+.menucontainer
+
+{
+    display:none;
+    justify-content:center;
+    position: absolute;
+    top:1.7px;
+    left: 1%;
+}
+
+.menu
+{
+    background-color: rgb(1, 1, 40);
+    outline: none;
+    border: none;
+}
+
+@media screen and (max-width:839px) {
+    .menucontainer
+    {
+        display: flex;
+    }
+    .sidehead
+    {
+        right:-19%;
+    }
+}

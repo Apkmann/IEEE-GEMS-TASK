@@ -1,0 +1,43 @@
+.categories {
+    display: flex;
+    align-items: center;
+    background-color: rgb(1, 1, 40);
+    gap:1%;
+    width: calc(100% - 17.5%); 
+    position: absolute;
+    height: 65px;
+    top: 45px;
+    left: 17.5%;
+    overflow: auto;
+}
+
+.category {
+    color: white;
+    font-size: 100%;
+    padding: 10px;
+    border: none;
+    border-radius:10px;
+    background-color: rgb(15, 15, 55);
+    cursor: pointer;
+    outline:none;
+}
+
+.category:hover {
+    background-color: rgb(239, 237, 73);
+    color:black;
+}
+
+.category.active
+{
+    background-color: rgb(239, 237, 73);
+    color:black;
+
+}
+
+
+@media screen and (max-width:830px){
+    .categories
+    {
+        margin-left: 7%;
+    }
+}
