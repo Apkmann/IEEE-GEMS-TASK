@@ -2,6 +2,19 @@
 
 ![Alt text](https://github.com/Apkmann/IEEE-GEMS-TASK/blob/main/GEMS%20task%20image.jpg)
 
+#### By changing the category it will show the videos according to the category
+![Alt text](https://github.com/Apkmann/IEEE-GEMS-TASK/blob/main/gaming%20.jpg)
+
+![Alt text](https://github.com/Apkmann/IEEE-GEMS-TASK/blob/main/music.jpg)
+
+![Alt text](https://github.com/Apkmann/IEEE-GEMS-TASK/blob/main/tech.jpg)
+
+#### I implemented the searching function also
+![Alt text](https://github.com/Apkmann/IEEE-GEMS-TASK/blob/main/search.jpg)
+
+#### we can search by channel name also
+
+![Alt text](https://github.com/Apkmann/IEEE-GEMS-TASK/blob/main/channel.jpg)
 
 # I tried to deploy this site but the cors error occur while deploying in firebase host
 
